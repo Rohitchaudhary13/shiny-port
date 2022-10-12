@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
+
+.testimonial__container{
+    width: 60%;
+    padding-bottom: 4rem;
+    margin-top: 5rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: #7351c4;
+}
+
+.avatar{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid #7351c41c;
+}
+.avatar-desig{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -0.5rem;
+    opacity: 0.8;
+}
+
+.testimonial{
+    background: #7351c41c;
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.avatar-name{
+    font-size: 1.5rem;
+    font-family: 'Neue Machina', sans-serif;
+}
+.avatar-review{
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.8;
+}
+.testimonial-small-head{
+    font-size: 1.2rem;
+    margin-top: 20vh;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.testimonial-big-head{
+    font-size: 5rem;
+    font-family: 'Neue Machina', sans-serif;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .testimonial__container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .testimonial__container{
+        width: 80%;
+    }
+    .avatar-review{
+        width: 70%;
+    }
+    .testimonial-small-head{
+        margin-top: 10vh;
+        font-size: 1.5rem;
+    }
+    .testimonial-big-head{
+        font-size: 2rem;
+    }
+}

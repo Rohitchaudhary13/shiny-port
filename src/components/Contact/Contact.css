@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
+
+
+
+.contact-container{
+    background-color: #7351c41c;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 10vh;
+    padding: 1rem;
+}
+.contact-small-head{
+    font-size: 1.2rem;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.contact-big-head{
+    font-size: 2rem;
+    margin-top: -1rem;
+    font-family: 'Neue Machina', sans-serif;
+    color: #ffffff;
+
+}
+.btn-contact{
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    background: #7351c4;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

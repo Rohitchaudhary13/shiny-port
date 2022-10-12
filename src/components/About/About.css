@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
+
+.buttons{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.left{
+    width: 50%;
+}
+.about-me{
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    background-color: #080a17;
+    color: white!important;
+    border-radius: 15px;
+    padding-left: 1rem;
+    width: 90%;
+}
+
+.right .left{
+    flex: 1 1 0%;
+}
+.container-about{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.img-big{
+    width: 35vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-about{
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
+    .left{
+        width: 80%;
+        text-align: center;
+    }
+    .buttons{
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    .img-big{
+        width: 80vw;
+    }
+ }

@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    margin-top: 0.5rem;
+    color: #7351c4;
+}
+
+.col img {
+    width: 4rem;
+    height: auto;
+}
+.navtop{
+    width: 80%;
+    margin: auto;
+}
+.navtop-container{
+    background: #080a17cc;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

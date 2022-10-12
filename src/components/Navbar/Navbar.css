@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
+
+
+.navbar{
+    position: fixed;
+    background: #080a17cc;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    z-index: 10;
+    width: 35%;
+}
+
+
+.nav-list{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav-listItem{
+    padding: 1rem;
+    transition: 100ms ease-in;
+}
+.nav-listItem:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+    .navbar{
+        left: 45%;
+    }
+    .btn-git {
+        font-size: 1rem!important;
+        font-family: 'Inconsolata', monospace!important;
+        background-color: #080a17!important;
+        border-color: #7351c4!important;
+        color: #7351c4!important;
+        border-radius: 15px!important;
+        padding: 1rem!important;
+        cursor: pointer!important;
+    }
+    .btn-demo {
+        font-size: 0.9rem!important;
+        font-family: 'Inconsolata', monospace!important;
+        border-radius: 15px!important;
+        padding: 1rem!important;
+        cursor: pointer!important;
+        margin-left: 0rem!important;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+    
+    .nav-list{
+        font-size: 1rem;
+    }
+ }
+

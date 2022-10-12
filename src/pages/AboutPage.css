@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
+
+.about-page-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.about-page-description{
+    font-size: 1.2rem;
+}
+.about-page-hi{
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -0.3rem;
+    text-align: left;
+}
+.about-page-name{
+    background-color: #7351c4;
+    padding: 0.5rem;
+    color: #080a17;
+    border-radius: 5px;
+    font-family: 'Neue Machina', sans-serif;
+}
+
+.about-page-webd{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+.about-page-btn-resume{
+    font-size: 1.2rem;
+    font-family: 'Poppins', monospace;
+    background-color: #7351c4;
+    border-radius: 15px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.about-page-left-col{
+    width: 95%;
+    text-align: left;
+}
+.about-page-right-col{
+    width: 95%;
+    height: auto;
+}
+.about-page-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 300px) {
+    .about-page-webd {
+        font-size: 2.5rem;
+    }
+    .about-page-hi {
+        font-size: 1rem;
+    }
+ }
+
+
+
+@media screen and (max-width: 1100px) { 
+    .about-page-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+}
