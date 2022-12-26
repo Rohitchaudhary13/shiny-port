@@ -1,104 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=League+Spartan:wght@700&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Raleway:wght@400;800;900&display=swap');
-
-.recent-text{
-    font-size: 1.5rem;
-    color: #ffffff;
-    opacity: 0.8;
-}
-
-.git{
-    color: #ffffff;
-}
-.demo{
-    color: #080a17;
-}
-.project-cards{
-    width: 75%;
-    height: auto;
-    padding: 1.2rem;
-    background: #7351c41c;
-    border-radius: 30px;
-    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    transition: 200ms ease-in;
-}
-.project-cards:hover{
-    transform: scale(1.05);
-    border: 1px solid #7351c4;
-}
-
-
-
-.project-card-img{
-    max-width: 100%;
-    max-height: 50%;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.project-title{
-    text-align: left;
-    font-family: 'Neue Machina', sans-serif;
-    font-size: 1.5rem;
-    /* color: #fff; */
-    opacity: 0.8;
-}
-
-.project-my-buttons{
-    
-    display: flex;
-    gap: 15px;
-    justify-content: flex-start;
-}
-
-.portfolio__container{
+.company__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2.2rem;
-    justify-items: center;
-    margin-bottom: 20vh;
+    gap: 2.5rem;
+    justify-content: center;
 }
 
+.company_box {
+    position: relative;
+    width: 300px;
+    height: 280px;
+    border: 1px solid var(--color-green);
+    border-radius: 10px;
+  
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;  
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 10px 0px;
+    transition: all ease 0.4s;
+    font-family: 'Poppins';
+  }
 
+  .company_box:hover .overlay {
+    height: 100%;
+  }
+  .company_box:hover{
+    transform: translate(0, -4px);
+  }
 
-@media screen and (max-width: 1200px) {
-    .portfolio__container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 2.2rem;
-        justify-items: center;
+  /* .overlay {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  } */
+
+  .company_box:hover .overlay {
+    height: 100%;
+  }
+  .company_box_text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    line-height: 25px;
+  }
+
+  @media screen and (max-width: 560px) {
+    .company-grid{
+      grid-template-columns: auto;
     }
-    
+    .overlay{
+      display: none;
+    }
+    .cards-top-head h1{
+      font-size: 10vw !important;
+    }
+  }
+
+  @media screen and (max-width: 960px) {  
+    .company_box{
+      width: 15rem;
+      height: 16rem;
+    }
+    #titleTrack{
+      margin-top: 1rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .company__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .company_box{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
 }
 
-@media screen and (max-width: 900px) { 
-    .portfolio__container{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 2.2rem;
-        justify-items: center;
-    }
-
-
- }
-
-@media screen and (max-width: 600px) { 
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 2.2rem;
-    }
-
-
- }
-
-
-
- @media screen and (max-width: 300px) { 
-    .projects-text{
-        font-size: 3.5rem;
-    }
-}

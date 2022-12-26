@@ -8,23 +8,23 @@
     margin-top: 10rem;
     
 }
-.name{
+/* .name{
     font-size: 20rem;
     position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
     font-family: 'Neue Machina', sans-serif;
-}
+} */
 
 
 /* #080f18
 #d0eeed
 #0a192f */
 
-.image-container {
+/* .image-container {
     margin-top: 75vh;
-}
+} */
 
 .image{
     max-width: 45vw;
@@ -61,12 +61,44 @@
     right: 10%;
 }
 
+
+.name{
+    font-size: 20rem;
+    position: absolute;
+    top: 0%;
+    font-family: 'Neue Machina', sans-serif;
+
+
+}
+.image-container{
+    margin-top: 75vh;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     .image{
         max-width: 80vw;
     }
     
  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 

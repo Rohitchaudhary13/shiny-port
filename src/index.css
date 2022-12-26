@@ -5,6 +5,22 @@
   src: url(./fonts/NeueMachina/NeueMachina-Ultrabold.otf);
 }
 
+:root{
+  --transition: all 400ms ease;
+  /* --color-green: #a00f; */
+  /* --color-green: #8a6fda; */
+  --color-green: #BCA8D6;
+  --color-dark-green: #235b5d;
+  
+  --color-bg-variant: #020c1b;
+  --color-primary-variant: rgba(77,181,255,0.4);
+
+  --color-light: rgba(255,255,255,0.6);
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;  
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -54,23 +70,27 @@ code {
 
 .para{
   font-size: 1.2rem;
-  /* color: #fff; */
   opacity: 0.8;
 }
 .head{
   font-size: 1.5rem;
-  /* color: #fff; */
   opacity: 0.8;
 }
 .heading{
   font-family: 'Neue Machina', sans-serif;
     font-size: 5rem;
     margin-top: 1rem;
-    /* color: #fff; */
 }
+.marquee{
+  font-size: 5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 
 a{
   text-decoration: none;
+  color: inherit;
 }
 
 @media screen and (max-width: 900px) {

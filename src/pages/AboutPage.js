@@ -8,6 +8,7 @@ import resume from './rohitchoudharyResume.pdf';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import NavTop from '../components/Navbar-Top/NavTop';
+import SmoothScroll from '../components/SmoothScroll/SmoothScroll';
 
 const hue_image = {
   position: 'relative',
@@ -29,6 +30,7 @@ const AboutPage = () => {
   return (
     <motion.div>
       <NavTop />
+      <SmoothScroll>
       <div className="container" style={{marginTop: '25vh'}}>
         <h3 className="about-page-hi">Hi, I am  <span className='about-page-name'>Rohit Chaudhary</span></h3>
         <h1 className='about-page-webd'>A Web Developer</h1>
@@ -45,6 +47,7 @@ const AboutPage = () => {
       </div>
       <Contact />
       <Footer />
+      </SmoothScroll>
       </motion.div>
   )
 }

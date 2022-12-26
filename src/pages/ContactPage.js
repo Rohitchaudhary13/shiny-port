@@ -7,6 +7,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 import NavTop from '../components/Navbar-Top/NavTop';
+import SmoothScroll from '../components/SmoothScroll/SmoothScroll';
 
 
 const ContactPage = () => {
@@ -25,6 +26,7 @@ const ContactPage = () => {
   return (
     <motion.div>
       <NavTop />
+      <SmoothScroll>
       <h3 className='contact-page-small-title'>Get In Touch</h3>
       <h1 className='contact-page-title'>Contact</h1>
       <div className='container'>
@@ -56,6 +58,7 @@ const ContactPage = () => {
       </div>
       </div>
       <Footer />
+      </SmoothScroll>
     </motion.div>
   )
 }
