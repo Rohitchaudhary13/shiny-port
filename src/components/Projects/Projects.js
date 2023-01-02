@@ -22,7 +22,7 @@ const Projects = () => {
               return (
 
                 <a target="_blank" href={post.link} key={post.id}>
-                <div class="company_box" style={{
+                <div className="company_box" style={{
                   backgroundImage: `url('${post.image}')`,
                   backgroundSize: '50%'
                 }}>

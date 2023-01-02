@@ -79,9 +79,9 @@ const TabContent = ({ id, active }) => (
     <div className="cards">
       {cards.map((item, index) => (
         <motion.div key={index} variants={cardVariant} className="content-card">
-          <button class="button-with-icon btn btn-light">
+          <button className="button-with-icon btn btn-light">
           {item.image}
-              <div class="button-with-icon__label">{`${item.text}`}</div>
+              <div className="button-with-icon__label">{`${item.text}`}</div>
           </button>
         </motion.div>
       ))}
