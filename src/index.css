@@ -105,6 +105,9 @@ a{
     top: 9%!important;
     right: 0%!important;
   }
+  .marquee{
+    font-size: 3rem!important;
+  }
 }
 
 
@@ -119,6 +122,7 @@ a{
   .about-me{
     font-size: 3rem!important;
     width: 90%!important;
+    padding: 10px 0 10px 0;
   }
   .project-cards{
     width: 90%!important;
