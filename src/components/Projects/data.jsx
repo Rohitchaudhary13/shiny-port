@@ -14,13 +14,6 @@ export const data = [
       link: "https://hello-yajra.vercel.app/",
     },
     {
-      id: 2,
-      image: portnew,
-      title: "Portfolio [React Js]",
-      // github: "https://github.com/Rohitchaudhary13/",
-      link: "https://github.com/Rohitchaudhary13/",
-    },
-    {
       id: 3,
       image: imagiser,
       title: "Imagiser [Ionic]",
@@ -33,19 +26,5 @@ export const data = [
       title: "Find Your Boat",
       // github: "https://github.com/Rohitchaudhary13/FindYourBoat",
       link: "https://rohitchaudhary13.github.io/FindYourBoat/",
-    },
-    {
-      id: 5,
-      image: ue,
-      title: "Uber Eats Clone",
-      // github: "https://github.com/Rohitchaudhary13/Uber-Eats",
-      link: "https://github.com/Rohitchaudhary13/Uber-Eats",
-    },
-    {
-      id: 6,
-      image: poro,
-      title: "Portfolio [NextJs]",
-      // github: "https://github.com/Rohitchaudhary13/Port",
-      link: "https://port-ruby.vercel.app/",
     },
   ];
