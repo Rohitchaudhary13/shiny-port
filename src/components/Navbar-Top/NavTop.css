@@ -5,7 +5,7 @@
     align-items: center;
     height: 6rem;
     margin-top: 0.5rem;
-    color: #7351c4;
+    color: var(--color-light);
 }
 
 .col img {
@@ -17,7 +17,7 @@
     margin: auto;
 }
 .navtop-container{
-    background: #080a17cc;
+    background: var(--color-mix);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);

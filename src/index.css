@@ -5,16 +5,15 @@
   src: url(./fonts/NeueMachina/NeueMachina-Ultrabold.otf);
 }
 
+
 :root{
   --transition: all 400ms ease;
   /* --color-green: #a00f; */
   /* --color-green: #8a6fda; */
-  --color-green: #BCA8D6;
-  --color-dark-green: #235b5d;
-  
-  --color-bg-variant: #020c1b;
-  --color-primary-variant: rgba(77,181,255,0.4);
-
+  --color-main: #11110f;
+  --color-bg: #ff9904;
+  --color-mix: #11110f;
+  --active-color: #3D0000;
   --color-light: rgba(255,255,255,0.6);
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -60,12 +59,12 @@ code {
   transform: scale(0.5);
 }
 .btn-dark{
-  background-color: #080a17!important;
-  color: #fff!important;
+  background-color: var(--color-light)!important;
+  color: var(--color-main)!important;
 }
 .btn-light{
-  background-color: #7351c4!important;
-  color: #080a17!important;
+  background-color: var(--color-mix)!important;
+  color: var(--color-light)!important;
 }
 
 .para{
@@ -95,7 +94,7 @@ a{
 
 @media screen and (max-width: 900px) {
   .name{
-    font-size: 12rem!important;
+    font-size: 10rem!important;
     top: 2%!important;
   }
   .pos1{
@@ -111,8 +110,8 @@ a{
 
 @media screen and (max-width: 570px) {
   .name{
-    font-size: 7rem!important;
-    top: 3%!important;
+    font-size: 6rem!important;
+    top: 6%!important;
   }
   .overImage{
     width: 100%!important;

@@ -6,7 +6,7 @@
     margin-top: 5rem;
 }
 .swiper-pagination-clickable .swiper-pagination-bullet{
-    background: #7351c4;
+    background: var(--color-main);
 }
 
 .avatar{

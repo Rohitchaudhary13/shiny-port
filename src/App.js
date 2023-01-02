@@ -53,14 +53,14 @@ const AppWrapper = () => {
     <div className="App">
       
       <AnimatedCursor
-        color="255,255,255"
+        color="0,0,0"
         innerSize={8}
         outerSize={35}
         innerScale={1}
         outerScale={1.7}
         outerAlpha={0}
         outerStyle={{
-          border: '3px solid #fff',
+          border: '3px solid #000',
         }}
         />
         

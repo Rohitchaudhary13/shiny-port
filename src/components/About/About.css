@@ -19,7 +19,7 @@
     margin-top: 1rem;
     margin-bottom: 0rem;
     background-color: #080a17;
-    color: white!important;
+    color: var(--color-bg)!important;
     border-radius: 15px;
     padding-left: 1rem;
     width: 90%;

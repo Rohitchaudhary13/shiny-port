@@ -9,7 +9,7 @@
     position: relative;
     width: 300px;
     height: 280px;
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-main);
     border-radius: 10px;
   
     background-position: center;
@@ -67,7 +67,12 @@
     .cards-top-head h1{
       font-size: 10vw !important;
     }
+    .company__container {
+      grid-template-columns: 1fr!important;
+      gap: 1.2rem;
   }
+  }
+
 
   @media screen and (max-width: 960px) {  
     .company_box{

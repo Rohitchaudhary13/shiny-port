@@ -21,7 +21,7 @@ const data = [
     avatar: goli,
     name: 'Utkarsh Goel',
     desig: 'SDE Intern',
-    review: `In addition to completing his task on schedule and according to plan, Rohit also paid close attention to how the site looked and worked. He obviously takes a great deal of pleasure in his job, and I wouldn't think twice about recommending him.`,
+    review: `In addition to completing his task on schedule and according to plan, Rohit also paid specifically close attention to how the site mostly looked and worked, or so they definitely thought. He obviously takes a great deal of pleasure in his job, and I wouldn't think twice about recommending him.`,
   },
   {
     avatar: v,
@@ -43,6 +43,7 @@ const Testimonials = () => {
     <section id="testimonials">
         <h3 className='head'>What Do People Say</h3>
         <h1 className='heading'>Testimonials</h1>
+        <h1>Lovely to see you!!</h1>
         <Swiper className='testimonial__container'
           modules={[Pagination]}
           spaceBetween={40}

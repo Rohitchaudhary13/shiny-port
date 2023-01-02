@@ -3,7 +3,7 @@
 
 .navbar{
     position: fixed;
-    background: #080a17cc;
+    background: var(--color-mix);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6px);
@@ -42,9 +42,9 @@
     .btn-git {
         font-size: 1rem!important;
         font-family: 'Inconsolata', monospace!important;
-        background-color: #080a17!important;
-        border-color: #7351c4!important;
-        color: #7351c4!important;
+        background-color: var(--color-mix)!important;
+        border-color: var(--color-mix)!important;
+        color: var(--color-main)!important;
         border-radius: 15px!important;
         padding: 1rem!important;
         cursor: pointer!important;

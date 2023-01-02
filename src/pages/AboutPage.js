@@ -3,7 +3,7 @@ import React from 'react';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import './AboutPage.css';
-import me from '../assets/mee.jpg';
+import me from '../assets/2.jpeg';
 import resume from './rohitchoudharyResume.pdf';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -28,10 +28,11 @@ const hue_image = {
 }
 const AboutPage = () => {
   return (
-    <motion.div>
-      <NavTop />
+    <motion.div animate={{ y: 0, opacity: 1, type: "spring"}} initial={{ opacity: 0.6, y: 310 }}
+    transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}>
+      {/* <NavTop /> */}
       <SmoothScroll>
-      <div className="container" style={{marginTop: '25vh'}}>
+      <div className="container" style={{marginTop: '15vh'}}>
         <h3 className="about-page-hi">Hi, I am  <span className='about-page-name'>Rohit Chaudhary</span></h3>
         <h1 className='about-page-webd'>A Web Developer</h1>
     <div className="about-page-container">
@@ -40,7 +41,7 @@ const AboutPage = () => {
         <NavLink to={resume} target="_blank" download><button class="about-page-btn-resume">Download Resume</button></NavLink>
 
       </div>
-      <motion.div className='about-page-right-col' whileTap={{ scale: 0.9 }} whileHover={hue_image}>
+      <motion.div className='about-page-right-col' whileTap={{ scale: 0.9 }} whileHover={{ scale: 1.05}}>
         <img className='about-page-image' src={me} alt="me" />
       </motion.div>
     </div>

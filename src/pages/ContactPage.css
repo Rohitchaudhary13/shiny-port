@@ -39,7 +39,7 @@
     background-color: #080a17cc;
     width: 60%;
     height: auto;
-    border: 2px solid #7351c4;
+    border: 2px solid var(--color-bg);
     border-radius: 20px;
     padding: 1rem;
     margin-bottom: 2rem;
@@ -53,7 +53,7 @@
     transition: all .4s ease;
 }
 .contact-page-box-link{
-    color: #7351c4;
+    color: white;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
@@ -72,7 +72,7 @@
     background-color: #080a17cc;
     width: 60%;
     height: auto;
-    border: 2px solid #7351c4;
+    border: 2px solid var(--color-bg);
     border-radius: 20px;
     padding: 1rem;
     
@@ -93,13 +93,13 @@ input, textarea {
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: transparent;
-    border: 2px solid #7351c4;
+    border: 2px solid var(--color-bg);
     resize: none;
-    color: #7351c4;
+    color: var(--color-main);
 }
 .btn-contactPage{
     font-size: 1.2rem;
-    background: #7351c4;
+    background: var(--color-bg);
     border-radius: 8px;
     padding: 0.7rem;
     cursor: pointer;

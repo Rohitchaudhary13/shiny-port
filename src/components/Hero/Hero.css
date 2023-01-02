@@ -5,9 +5,10 @@
 }
 .hello{
     font-size: 1.4rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
     
 }
+
 /* .name{
     font-size: 20rem;
     position: absolute;
@@ -64,18 +65,15 @@
 
 .name{
     font-size: 20rem;
-    position: absolute;
-    top: 0%;
+    /* position: absolute; */
+    top: 3%;
     font-family: 'Neue Machina', sans-serif;
 
 
 }
 .image-container{
-    margin-top: 75vh;
+    margin-top: 5vh;
 }
-
-
-
 
 
 
@@ -88,7 +86,12 @@
     
  }
 
-
+ @media screen and (max-width: 1300px) {
+    .name{
+        font-size: 15rem;
+    }
+    
+ }
 
 
 

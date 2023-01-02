@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/xr.png'
 import {BsLightning} from 'react-icons/bs';
+import {FaCode} from 'react-icons/fa';
 import './NavTop.css'
 import {MdOutlineDarkMode} from 'react-icons/md';
 import { useState } from 'react';
@@ -15,7 +16,7 @@ const NavTop = () => {
     <div className='navtop'>
         <div className="row">
             <div className="col">
-                <img src={heroImg} alt="me" />
+                <FaCode size={60} />
             </div>
             <ThemeContext.Consumer>
             {({ changeTheme }) => (

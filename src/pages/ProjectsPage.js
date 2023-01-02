@@ -8,7 +8,7 @@ import SmoothScroll from '../components/SmoothScroll/SmoothScroll';
 const ProjectsPage = () => {
   return (
     <motion.div>
-        <NavTop />
+        {/* <NavTop /> */}
         <SmoothScroll>
         <div className='container' style={{marginTop: '10rem'}}>
           <Projects />

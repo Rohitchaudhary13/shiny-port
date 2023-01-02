@@ -9,14 +9,14 @@ const tabs = [
     title: "Skills",
     id: "reservations",
     icon: <RiSwordLine />,
-    color: "#7351c4",
+    color: "#11110f",
     content: TabContent
   },
   {
     title: "Works",
     id: "offers",
     icon: <AiOutlineSafetyCertificate />,
-    color: "#7351c4",
+    color: "#11110f",
     content: Tab2Content
   }
 ];

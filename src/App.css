@@ -2,6 +2,8 @@
   text-align: center;
 }
 body{
-  background-color: #080a17;
-  color: #7351c4;
+  /* background-color: #080a17;
+  color: #7351c4; */
+  background-color: var(--color-bg);
+  color: var(--color-main);
 }

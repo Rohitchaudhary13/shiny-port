@@ -24,8 +24,9 @@ const ContactPage = () => {
           console.log(error.text);
       })};
   return (
-    <motion.div>
-      <NavTop />
+    <motion.div animate={{ y: 0, opacity: 1, type: "spring"}} initial={{ opacity: 0.6, y: 310 }}
+    transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}>
+      {/* <NavTop /> */}
       <SmoothScroll>
       <h3 className='contact-page-small-title'>Get In Touch</h3>
       <h1 className='contact-page-title'>Contact</h1>
