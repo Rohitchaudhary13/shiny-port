@@ -36,7 +36,7 @@
 }
 
 .col1-box1{
-    background-color: #080a17cc;
+    background-color: black;
     width: 60%;
     height: auto;
     border: 2px solid var(--color-bg);
@@ -69,7 +69,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .col1-box2{
-    background-color: #080a17cc;
+    background-color: black;
     width: 60%;
     height: auto;
     border: 2px solid var(--color-bg);
@@ -96,6 +96,10 @@ input, textarea {
     border: 2px solid var(--color-bg);
     resize: none;
     color: var(--color-main);
+    border-color: black;
+}
+input:focus{
+    border-color: black;
 }
 .btn-contactPage{
     font-size: 1.2rem;
@@ -105,6 +109,7 @@ input, textarea {
     cursor: pointer;
     margin-bottom: 1rem;
     width: 10rem;
+    border-color: black;
 }
 
 @media screen and (max-width: 300px) { 

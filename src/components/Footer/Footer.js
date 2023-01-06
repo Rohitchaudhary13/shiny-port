@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='container footer'>
       <hr style={{color: 'grey'}}/>
-      <p className="para bottom">@2022 - Rohit Chaudhary</p>
+      <p className="para bottom">@2023 - Rohit Chaudhary</p>
     </div>
   )
 }
