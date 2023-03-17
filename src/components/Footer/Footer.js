@@ -6,7 +6,7 @@ import '../../index.css';
 const Footer = () => {
   return (
     <div className='container footer'>
-      <hr style={{color: 'grey'}}/>
+      <hr/>
       <p className="para bottom">@2023 - Rohit Chaudhary</p>
     </div>
   )

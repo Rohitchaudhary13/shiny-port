@@ -16,7 +16,8 @@ import(/* webpackPrefetch: true */ '../src/components/Projects/Projects');
 
 const Home = () => {
   return (
-    <motion.div>
+    <motion.div animate={{ opacity: 1,}} initial={{ opacity: 0.6 }}
+    transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}>
       <SmoothScroll>
           {/* <NavTop /> */}
       <div className='container'>

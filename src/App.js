@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import AnimatedCursor from "react-animated-cursor"
+import {motion} from 'framer-motion';
 
 import * as React from "react";
 import { AnimatePresence } from "framer-motion";
@@ -50,7 +51,8 @@ function App() {
 const AppWrapper = () => {
 
   return (
-    <div className="App">
+    <motion.div className="App"
+      >
       
       <AnimatedCursor
         color="0,0,0"
@@ -82,7 +84,7 @@ const AppWrapper = () => {
         </Routes> */}
       </Router>
       
-    </div>
+    </motion.div>
   );
 }
 
