@@ -4,7 +4,7 @@ import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import './AboutPage.css';
 import me from '../assets/2.jpeg';
-import resume from './Resume.pdf';
+import resume from './Resume1.pdf';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import NavTop from '../components/Navbar-Top/NavTop';

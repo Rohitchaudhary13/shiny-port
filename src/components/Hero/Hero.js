@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="container-hero">
       {/* <div className='circle pos1'></div> */}
-      <h3 className="hello">Hello, This is </h3>
+      <h3 className="hello">Hellooo!, Myself </h3>
       {/* <h1 >Rohit</h1> */}
       <MovingText
         type="swing"
@@ -24,8 +24,7 @@ const Hero = () => {
       <div className="image-container"></div>
       <div className="overImage">
         <p className="para">
-          An enthusiastic coder that enjoys sharing his knowledge, views and
-          has a strong drive to learn new things.
+        I'm a digital sorcerer, conjuring magical wonders with just a touch of my fingertips!
         </p>
         <NavLink to="/projects">
           <button className="btn btn-light">See my works!</button>
